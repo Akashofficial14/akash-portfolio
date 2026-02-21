@@ -1,6 +1,5 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { NavLink } from "react-router";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
