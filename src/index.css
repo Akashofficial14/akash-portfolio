@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family:monument-ultrabold ;
+  src: url(../public/MonumentExtended-Ultrabold.ttf);
+}
+@font-face {
+  font-family:monument-regular;
+  src: url(../public/Monument\ Extended\ Regular\ 400.otf);
+}
+html {
+  scroll-behavior: smooth;
+}
+.fof{
+  font-family: monument-ultrabold;
+}
+.fof-nav{
+  font-family:monument-regular ;
+}
