@@ -1,6 +1,6 @@
 export const majorProjects = [
     {
-    image: "public/spotify.png",
+    image: "/spotify.png",
     projectName: "Spotify Clone",
     description: "A high-fidelity music streaming interface featuring seamless playback and personalized playlist management for an immersive audio experience.",
     bgColor:"#1db954",
@@ -8,7 +8,7 @@ export const majorProjects = [
     secondaryColor: "#EAC47E",
   },
   {
-    image: "public/blood.png",
+    image: "/blood.png",
     projectName: "Blood Assistant",
     description: "A life-saving geo-locator app that connects users with nearby blood banks in real-time based on their current coordinates.",
     bgColor:"#ef4444",

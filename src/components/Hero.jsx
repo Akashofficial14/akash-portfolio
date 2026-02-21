@@ -13,7 +13,7 @@ const Hero = () => {
             </span>
             a full stack web developer{" "}
           </h1>
-          <img className='w-120'src="public/3d model.png" alt="" />
+          <img className='w-120'src="/3d model.png" alt="" />
           <h3 className="fof text-4xl font-semibold text-center lg:text-5xl">
             I don't just <span className="text-[#F3743C]">build websites</span>{" "}
             I build the interfaces people live in.

@@ -11,7 +11,7 @@ const Contact = () => {
     <p className="text-md font-semibold text-center lg:text-3xl">Let's Connect the Dots</p>
       <img
         className="w-full object-cover object-center rounded-xl transition-transform hover:scale-110 lg:w-120"
-        src="public/akash.jpg"
+        src="/akash.jpg"
         alt=""
       />
       <div className="links flex gap-2 justify-center items-center flex-wrap lg:gap-25 ">
