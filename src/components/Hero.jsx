@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 const Hero = () => {
   return (
      <div className="hero w-full ">
-        <Navbar/>
         <div className="flex justify-center items-center flex-col px-3 gap-6 lg:gap-5" id='about'>
           <h1 className="fof text-5xl font-semibold text-center lg:text-5xl">
             <span className="text-5xl font-semibold text-[#957EE5] hover:text-black lg:text-6xl">

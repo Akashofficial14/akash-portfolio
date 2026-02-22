@@ -4,11 +4,11 @@ import { useState } from "react";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="fof-nav w-full px-2 py-4 bg-[#252525] mb-5 text-white flex justify-center items-center gap-5">
+    <nav className="fof-nav w-full px-2 py-4 bg-[#252525] mb-5 text-white flex justify-center items-center gap-5 lg:py-1 fixed top-0 z-20">
       <div className="mobile-nav w-full flex justify-between items-center px-3 lg:hidden">
-        <h3 className="text-md font-thin px-4 py-2.5 bg-green-500 rounded-full active:text-yellow-500 cursor-pointer">
+        <a href="/Akash-resume.pdf" download="Akash-resume.pdf" className="text-md font-thin px-4 py-2.5 bg-green-500 rounded-full active:text-yellow-500 cursor-pointer">
           get resume
-        </h3>
+        </a>
         <div
           onClick={() => setToggle((prev) => !prev)}
           className="cursor-pointer z-[60]"
@@ -46,7 +46,7 @@ const Navbar = () => {
         <a href="#skills" className="text-md font-thin hover:text-yellow-500 cursor-pointer lg:text-xl">
           skills
         </a >
-        <a href="" className="text-md font-thin px-4 py-2.5 bg-green-500 rounded-full hover:text-yellow-500 cursor-pointer lg:text-xl">
+        <a href="/Akash-resume.pdf" download="Akash-resume.pdf" className="text-md font-thin px-4 py-2.5 bg-green-500 rounded-full hover:text-yellow-500 cursor-pointer lg:text-xl">
           get resume
         </a >
         <a href="#work" className="text-md font-thin hover:text-yellow-500 cursor-pointer lg:text-xl">

@@ -7,7 +7,10 @@ import {
 
 const Skills = () => {
   return (
-    <div className="contact w-full bg-black px-3 pt-15 mt-5 text-white" id='skills'>
+    <div
+      className="contact w-full bg-black px-3 pt-15 mt-5 text-white"
+      id="skills"
+    >
       <div className="fof-nav title flex  flex-col justify-center items-center gap-3">
         <h1 className="text-2xl font-semibold lg:text-6xl">
           Technical Arsenal
@@ -16,9 +19,9 @@ const Skills = () => {
           My go-to weapons for solving complex problems.
         </p>
       </div>
-      <div className="techincal fof-nav flex flex-col gap-10 mt-5 justify-center items-center">
-        <div className="one">
-          <h3 className="text-2xl font-semibold text-center pb-3 lg:text-3xl">
+      <div className="techincal fof-nav flex flex-col gap-5 mt-5 justify-center items-center lg:gap-10">
+        <div className="one flex flex-col justify-center items-center text-center gap-3">
+          <h3 className="text-2xl font-semibold text-center pb-3 lg:text-3xl mt-5">
             {" "}
             frontend tools
           </h3>
@@ -39,9 +42,14 @@ const Skills = () => {
               </div>
             ))}
           </div>
+          <p className="text-zinc-500 leading-relaxed">
+            Bringing designs to life using React and TailwindCSS, ensuring{" "}
+            <br /> the code is modular, performant, and responsive across all
+            devices.
+          </p>
         </div>
-        <div className="togther w-full flex flex-col gap-10 lg:flex-row justify-center items-center lg:gap-30 ">
-          <div className="two">
+        <div className="togther w-full flex flex-col gap-5 lg:flex-row justify-center items-center lg:gap-25 ">
+          <div className="two w-full lg:w-[50%] p-3">
             <h3 className="text-2xl font-semibold text-center pb-3 lg:text-3xl">
               backend tools
             </h3>
@@ -61,12 +69,16 @@ const Skills = () => {
                 </div>
               ))}
             </div>
+            <p className="text-zinc-500 leading-relaxed text-center pt-2">
+              Powering the experience with Node.js and MongoDB, creating secure
+              APIs and databases that can handle growth and complex data.
+            </p>
           </div>
-          <div className="three">
+          <div className="thre ew-full lg:w-[50%] p-3">
             <h3 className="text-2xl font-semibold text-center pb-3 lg:text-3xl">
               others
             </h3>
-            <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-4 sm:grid-cols-2 lg:flex justify-center items-center gap-8">
               {toolsPlatforms.map((tool, idx) => (
                 <div key={idx} className="flex flex-col items-center group">
                   <div className="w-16 h-16 bg-slate-800 rounded-2xl flex items-center justify-center border border-slate-700 group-hover:border-emerald-500 transition-all duration-300 shadow-xl">
@@ -82,9 +94,15 @@ const Skills = () => {
                 </div>
               ))}
             </div>
+            <p className="text-zinc-500 leading-relaxed text-center pt-2" >
+              I use Figma to design the vision and GSAP to breathe life into it.
+              I rely on Git and GitHub to anchor the code, ensuring code
+              tracking, testing, and collabration.
+            </p>
           </div>
         </div>
       </div>
+      {/* <p className="fof-nav text-md text-center font-light lg:text-xl">"I believe great software is built on a foundation of clean code and thoughtful design. My expertise spans the entire development lifecycle, allowing me to take an idea from a Figma sketch, build it with React, and scale it with Node.js and MongoDB.</p> */}
     </div>
   );
 };

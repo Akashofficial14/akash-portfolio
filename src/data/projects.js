@@ -1,16 +1,20 @@
 export const majorProjects = [
     {
-    image: "/spotify.png",
+    image: "https://wallpapercave.com/wp/wp9894897.jpg",
     projectName: "Spotify Clone",
     description: "A high-fidelity music streaming interface featuring seamless playback and personalized playlist management for an immersive audio experience.",
+    liveLink:"https://spotify-new-coral.vercel.app/",
+    github:"https://github.com/Akashofficial14/Spotify.git",
     bgColor:"#1db954",
     primaryColor: "#96D1FD",
     secondaryColor: "#EAC47E",
   },
   {
-    image: "/blood.png",
+    image: "/bloodnew.png",
     projectName: "Blood Assistant",
     description: "A life-saving geo-locator app that connects users with nearby blood banks in real-time based on their current coordinates.",
+    liveLink:"",
+    github:"",
     bgColor:"#ef4444",
     primaryColor: "#96D1FD",
     secondaryColor: "#EAC47E",

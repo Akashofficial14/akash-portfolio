@@ -10,10 +10,17 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 .fof{
   font-family: monument-ultrabold;
 }
 .fof-nav{
   font-family:monument-regular ;
+}
+@media (max-width:600px) {
+  html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
 }
