@@ -31,7 +31,7 @@ const Contact = () => {
             src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"
             alt=""
           />
-          <a href="https://www.linkedin.com/in/akash-warade-b2907226b}{LinkedIn}" className="text-lg font-light lg:text-3xl">Linkedin</a >
+          <a href="https://www.linkedin.com/in/akash-warade-b2907226b" className="text-lg font-light lg:text-3xl">Linkedin</a >
         </div>
         <div className="two flex gap-1 justify-center items-center px-3 py-1 rounded-2xl transition-transform cursor-pointer hover:scale-110 lg:bg-transparent ">
           <img
